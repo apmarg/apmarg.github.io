@@ -48,6 +48,17 @@ a {
     color: #0f6771;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    padding: 15px 0 10px;
+    width: 100vw;
+    max-width: 1200px;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
 footer {
     position: fixed;
     bottom: 5px;
