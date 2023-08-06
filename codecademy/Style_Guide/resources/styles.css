@@ -1,3 +1,12 @@
+section {
+    margin: 25px auto;
+}
+
+ul {
+    background-color: #4D194D20;
+    border: 1px solid #3E1F47;
+}
+
 /* Colors Section */
 
 .colors {
@@ -6,6 +15,7 @@
 
 .colors th {
     text-align: left;
+    font-weight: 400;
 }
 
 .colors td {
@@ -16,28 +26,40 @@
     text-align: center;
 }
 
-/* Fonts Section */
+/* Text Styling Section */
 
-.fonts {
-    width: 1500px;
+.text_styles tr {
+    padding-bottom: 10px;
 }
 
-.fonts th {
+.text_styles th {
     text-align: left;
+    font-weight: 400;
+    color: #3E1F47;
 }
 
-.fonts td {
-    vertical-align: bottom;
-    text-align: center;
-    border: 1px solid;
+.text_styles td {
+    border: 1px solid #4D194D;
+    width: 750px;
+    padding: 10px;
 }
 
 .juliussansone {
     font-family: "Julius Sans One";
-    width: 50%;
+    background-color: #00646625;
 }
 
-.roboto {
+.robotoflex {
     font-family: "Roboto Flex";
-    width: 50%;
+    background-color: #0B525B25;
+}
+
+.archivonarrow {
+    font-family: "Archivo Narrow";
+    background-color: #1B3A4B25;
+}
+
+.quicksand {
+    font-family: "Quicksand";
+    background-color: #27264025;
 }
