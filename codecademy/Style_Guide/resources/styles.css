@@ -1,0 +1,43 @@
+/* Colors Section */
+
+.colors {
+    margin: 10px auto;
+}
+
+.colors th {
+    text-align: left;
+}
+
+.colors td {
+    height: 250px;
+    width: 150px;
+    color: white;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+/* Fonts Section */
+
+.fonts {
+    width: 1500px;
+}
+
+.fonts th {
+    text-align: left;
+}
+
+.fonts td {
+    vertical-align: bottom;
+    text-align: center;
+    border: 1px solid;
+}
+
+.juliussansone {
+    font-family: "Julius Sans One";
+    width: 50%;
+}
+
+.roboto {
+    font-family: "Roboto Flex";
+    width: 50%;
+}
