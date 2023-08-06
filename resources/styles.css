@@ -96,7 +96,11 @@ footer {
 	        animation: rotate-center 0.6s ease-in-out both;
 }
 
-
+.specs {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
 
 
 /* ----------------------------------------------
