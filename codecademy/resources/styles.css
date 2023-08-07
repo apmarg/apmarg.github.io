@@ -1,3 +1,8 @@
+.project_list ul {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .project_list li {
     padding: 10px;
 }
