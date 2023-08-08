@@ -1,47 +1,30 @@
-section {
-    margin: 25px auto;
-}
-
-ul {
-    background-color: #4D194D20;
-    border: 1px solid #3E1F47;
+.container {
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Colors Section */
 
-.colors {
-    margin: 10px auto;
-}
-
-.colors th {
-    text-align: left;
-    font-weight: 400;
-}
-
-.colors td {
-    height: 250px;
+.color {
+    height:300px;
     width: 150px;
     color: white;
-    vertical-align: bottom;
-    text-align: center;
+    margin: 2px;
 }
 
-/* Text Styling Section */
+/* Font Styles Section */
 
-.text_styles tr {
-    padding-bottom: 10px;
-}
-
-.text_styles th {
-    text-align: left;
-    font-weight: 400;
-    color: #3E1F47;
-}
-
-.text_styles td {
-    border: 1px solid #4D194D;
-    width: 750px;
-    padding: 10px;
+.font {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
 }
 
 .juliussansone {
@@ -49,17 +32,45 @@ ul {
     background-color: #00646625;
 }
 
-.robotoflex {
-    font-family: "Roboto Flex";
-    background-color: #0B525B25;
-}
-
-.archivonarrow {
-    font-family: "Archivo Narrow";
-    background-color: #1B3A4B25;
-}
-
 .quicksand {
     font-family: "Quicksand";
     background-color: #27264025;
+}
+
+.barlowcondensed {
+    font-family: "Barlow Condensed";
+    background-color: #4D194D25;
+}
+
+
+/* Element Styles Section */
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+
+.h1 {
+    background-color: #00646625;
+}
+
+.h2{
+    background-color: #0B525B25;
+}
+
+.h3 {
+    background-color: #1B3A4B25;
+}
+
+.h4 {
+    background-color: #31224425;
+}
+
+.p {
+    background-color: #4D194D25;
 }

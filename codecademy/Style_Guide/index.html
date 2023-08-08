@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Website Style Guide</title>
-        <link rel="stylesheet" href="../../resources/styles.css">
+        <link rel="stylesheet" href="../../resources/global-styles.css">
         <link rel="stylesheet" href="./resources/styles.css">
         <link rel="icon" href="../resources/images/AGfavicon32.png">
     </head>
@@ -12,93 +12,60 @@
             <h3>a codecademy challenge project</h3>
         </header>
         <main>
-            <section class="colors">
-                <table>
-                    <tr>
-                        <th colspan="10">Color Palette</th>
-                    </tr>
-                    <tr>
-                        <td style="background-color:#006466">#006466</td>
-                        <td style="background-color:#065A60">#065A60</td>
-                        <td style="background-color:#0B525B">#0B525B</td>
-                        <td style="background-color:#144552">#144552</td>
-                        <td style="background-color:#1B3A4B">#1B3A4B</td>
-                        <td style="background-color:#212F45">#212F45</td>
-                        <td style="background-color:#272640">#272640</td>
-                        <td style="background-color:#312244">#312244</td>
-                        <td style="background-color:#3E1F47">#3E1F47</td>
-                        <td style="background-color:#4D194D">#4D194D</td>
-                    </tr>
-                </table>
+                <h2>Color Palette</h2>            
+                <section class="color_styles container">
+                <div class="color" style="background-color:#006466">#006466</div>
+                <div class="color" style="background-color:#065A60">#065A60</div>
+                <div class="color" style="background-color:#0B525B">#0B525B</div>
+                <div class="color" style="background-color:#144552">#144552</div>
+                <div class="color" style="background-color:#1B3A4B">#1B3A4B</div>
+                <div class="color" style="background-color:#212F45">#212F45</div>
+                <div class="color" style="background-color:#272640">#272640</div>
+                <div class="color" style="background-color:#312244">#312244</div>
+                <div class="color" style="background-color:#3E1F47">#3E1F47</div>
+                <div class="color" style="background-color:#4D194D">#4D194D</div>
             </section>
-            <section class="text_styles">
-                <table>
-                    <tr>
-                        <th>Julius Sans One</th>
-                        <th>Roboto Flex</th>
-                    </tr>
-                    <tr>
-                        <td class="juliussansone">
-                            The quick brown fox jumps over the lazy dog.
-                            <br>
-                            <span style="font-style: italic;">The quick brown fox jumps over the lazy dog.</span>
-                        </td>
-                        <td class="robotoflex">
-                            The quick brown fox jumps over the lazy dog.
-                            <br>
-                            <span style="font-style: italic;">The quick brown fox jumps over the lazy dog.</span><br>
-                            <span style="font-weight: bold;">The quick brown fox jumps over the lazy dog.</span>
-                            
-                        </td>
-                    </tr>
-                    <tr height="25px"></tr>
-                    <tr>
-                        <th>Archivo Narrow</th>
-                        <th>Quicksand</th>
-                    </tr>
-                    <tr>
-                        <td class="archivonarrow">
-                            The quick brown fox jumps over the lazy dog.
-                            <br>
-                            <span style="font-style: italic;">The quick brown fox jumps over the lazy dog.</span><br>
-                            <span style="font-weight: bold;">The quick brown fox jumps over the lazy dog.</span>
-                            
-                        </td>
-                        <td class="quicksand">
-                            The quick brown fox jumps over the lazy dog.
-                            <br>
-                            <span style="font-style: italic;">The quick brown fox jumps over the lazy dog.</span><br>
-                            <span style="font-weight: bold;">The quick brown fox jumps over the lazy dog.</span>
-                            
-                        </td>
-                    </tr>
-                </table>
+                <h2>Font Families</h2>            
+                <section class="font_styles container">
+                <div class="font juliussansone">
+                    <h3 class="underline">Julius Sans One</h3>
+                    <br>
+                    <span>The quick brown fox jumps over the lazy dog.</span>
+                    <span class="italic">The quick brown fox jumps over the lazy dog.</span>
+                    <!--<span class="bold">The quick brown fox jumps over the lazy dog.</span>-->
+                </div>
+                <div class="font quicksand">
+                    <h3 class="underline">Quicksand</h3>
+                    <br>
+                    <span>The quick brown fox jumps over the lazy dog.</span>
+                    <span class="italic">The quick brown fox jumps over the lazy dog.</span>
+                    <span class="bold">The quick brown fox jumps over the lazy dog.</span>
+                </div><div class="font barlowcondensed">
+                    <h3 class="underline">Barlow Condensed</h3>
+                    <br>
+                    <span>The quick brown fox jumps over the lazy dog.</span>
+                    <span class="italic">The quick brown fox jumps over the lazy dog.</span>
+                    <!--<span class="bold">The quick brown fox jumps over the lazy dog.</span>--> 
+                </div>
             </section>
-            <section>
-                <h1>This is an h1 element.</h1>
-                    <ul>
-                        <li>Font-family: Julius Sans One</li>
-                        <li>Font-size: 50px</li>
-                        <li>Font-weight: 400</li>
-                    </ul>
-                </section>
-                <section>
-                <h3>This is an h3 element.</h3>
-                <ul>
-                    <li>Font-family: Roboto Flex</li>
-                    <li>Font-size: 30px</li>
-                    <li>Font-weight: 400</li>
-                </ul>
+            <h2>Element Styles</h2>
+            <section class="element_styles container">
+                <div class="element h1">
+                    <h1>This is an h1 element.</h1>
+                </div>
+                <div class="element h2">
+                    <h2>This is an h2 element.</h2>
+                </div>
+                <div class="element h3">
+                    <h3>This is an h3 element.</h3>
+                </div>
+                <div class="element h4">
+                    <h4>This is an h4 element.</h4>
+                </div>
+                <div class="element p">
+                    <p>This is a p element.</p>
+                </div>
             </section>
-            <section>
-                <p>This is a p element.</p>
-                <ul>
-                    <li>Font-family: Archivo Narrow</li>
-                    <li>Font-size: 20px</li>
-                    <li>Font-weight: </li>
-                </ul>
-            </section>
-
         </main>
       </body>
 </html>

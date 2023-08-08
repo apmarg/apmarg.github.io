@@ -1,8 +1,17 @@
-.project_list ul {
+.project_list {
     display: flex;
     flex-direction: column-reverse;
 }
 
-.project_list li {
+a {
     padding: 10px;
+}
+
+aside {
+    margin: 50px auto;
+}
+
+a.specs {
+    font-size: 0.75rem;
+    color: gray;
 }
