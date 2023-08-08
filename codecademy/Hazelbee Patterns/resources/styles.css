@@ -1,0 +1,128 @@
+/*ADD MEDIA QUERY FOR NAV BAR */
+html {
+    --hazelbee-yellow: #FEFFBB;
+    --hazelbee-grey: #BABABA;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Header and Navigation
+----------------------------------------------------------------------------------------------------*/
+
+header {
+    position: relative;
+    z-index: 9;
+    padding: 0;
+}
+
+nav {
+    display: inline-flex;
+    height: 50px;
+    border-bottom: black solid 1px;
+    width: calc(100vw - 60px);
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 2px 30px;
+    box-shadow: 0 0 10px 10px #00000020;
+}
+
+.navbar {
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.navbar a {
+    font-family: "Julius Sans One", sans-serif;
+    color: black;
+    padding: 0 0 0 15px;
+}
+
+/* Hero Section 
+--------------------------------------------------------------------------------------------------*/
+
+.hero {
+    background-image: url("./images/modeled/hero-xover.jpg");
+    background-position-x: center;
+    background-position-y:35%;
+    background-size: cover;
+    position: relative;
+    top: 54px;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+/* Main
+----------------------------------------------------------------------------------------------------*/
+main {
+    position: relative;
+    top: 54px;
+    padding: 0 0;
+    margin: 0 auto;
+    display:grid;
+    grid-template-areas: "shop reviews"
+                         "bio contact";
+    gap: 5px;
+    z-index: 1;
+}
+
+main section {
+    z-index: 1;
+}
+
+.shop {
+    width: 100%;
+    height: 400px;
+    background-color: var(--hazelbee-yellow);
+}
+
+.reviews {
+    width: 100%;
+    height: 400px;
+    background-color: var(--hazelbee-grey);
+}
+
+.bio {
+    width: 100%;
+    height: 400px;
+    background-color: var(--hazelbee-grey);
+}
+
+.contact {
+    width: 100%;
+    height: 400px;
+    background-color: var(--hazelbee-yellow);
+}
+
+/* Footer
+----------------------------------------------------------------------------------------------------*/
+
+footer {
+    position: relative;
+    top: 54px;
+    padding: 2px 30px 0 30px;
+    width: calc(100vw - 60px);
+    padding: 2px 60px 0 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: black solid 1px;
+    box-shadow: 0 -10px 10px 0 #00000020;
+    font-family: 'Julius Sans One';
+    z-index: 5;
+ }
